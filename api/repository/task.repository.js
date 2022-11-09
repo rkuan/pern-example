@@ -27,14 +27,7 @@ class TaskRepository {
     }
 
     async createTask(task) {
-        let data = {};
-        try {
-            task.createdate = new Date().toISOString();
-            data = await this.db.tasks.create(task);
-        } catch(err) {
-            logger.error('Error::' + err);
-        }
-        return data;
+        // implement createTask
     }
 
     async updateTask(task) {

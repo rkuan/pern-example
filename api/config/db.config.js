@@ -6,7 +6,7 @@ const connect = () => {
 
     const hostName = "localhost";
     const userName = "olivialai"; //rkuan
-    const password = "Pfrem7079!"; //fill in password if you have one
+    const password = "*"; //fill in password if you have one
     const database = "olivialai"; //rkuan
     const dialect = "postgres";
 

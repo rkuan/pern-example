@@ -10,6 +10,7 @@ const connect = () => {
     const database = "evanschun"; //rkuan
     const dialect = "postgres";
     
+    
 
     const sequelize = new Sequelize(database, userName, password, {
         host: hostName,

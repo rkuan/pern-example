@@ -5,9 +5,9 @@ const pg = require('pg');
 const connect = () => {
 
     const hostName = "localhost";
-    const userName = "*"; //rkuan
-    const password = "*"; //fill in password if you have one
-    const database = "*"; //rkuan
+    const userName = "evanschun"; //rkuan
+    const password = "Saltythekoifish512"; //fill in password if you have one
+    const database = "evanschun"; //rkuan
     const dialect = "postgres";
 
     const sequelize = new Sequelize(database, userName, password, {

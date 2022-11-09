@@ -9,7 +9,7 @@ const connect = () => {
     const password = "Saltythekoifish512"; //fill in password if you have one
     const database = "evanschun"; //rkuan
     const dialect = "postgres";
-    
+
     
 
     const sequelize = new Sequelize(database, userName, password, {

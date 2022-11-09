@@ -17,27 +17,27 @@ console.log('environment:::::', environment);
 
 let ENVIRONMENT_VARIABLES = {
   'process.env.HOST': JSON.stringify('localhost'),
-  'process.env.USER': JSON.stringify('*'), //rkuan
-  'process.env.DB': JSON.stringify('*'), //rkuan
+  'process.env.USER': JSON.stringify('wesleytong'), //rkuan
+  'process.env.DB': JSON.stringify('wesleytong'), //rkuan
   'process.env.DIALECT': JSON.stringify('postgres'),
   'process.env.PORT': JSON.stringify('3080'),
-  'process.env.PG_CONNECTION_STR': JSON.stringify("*") // "postgres://rkuan:''@localhost:5432/rkuan"
+  'process.env.PG_CONNECTION_STR': JSON.stringify("postgres://wesleytong:''@localhost:5432/wesleytong") // "postgres://rkuan:''@localhost:5432/rkuan"
 };
 
 if (environment === 'test') {
   ENVIRONMENT_VARIABLES = {
     'process.env.HOST': JSON.stringify('localhost'),
-    'process.env.USER': JSON.stringify('*'), //rkuan
-    'process.env.DB': JSON.stringify('*'), //rkuan
+    'process.env.USER': JSON.stringify('wesleytong'), //rkuan
+    'process.env.DB': JSON.stringify('wesleytong'), //rkuan
     'process.env.DIALECT': JSON.stringify('postgres'),
     'process.env.PORT': JSON.stringify('3080'),
-    'process.env.PG_CONNECTION_STR': JSON.stringify("*") // "postgres://rkuan:''@localhost:5432/rkuan"
+    'process.env.PG_CONNECTION_STR': JSON.stringify("postgres://wesleytong:''@localhost:5432/wesleytong") // "postgres://rkuan:''@localhost:5432/rkuan"
   };
 } else if (environment === 'production') {
   ENVIRONMENT_VARIABLES = {
     'process.env.HOST': JSON.stringify('localhost'),
-    'process.env.USER': JSON.stringify('*'), //rkuan
-    'process.env.DB': JSON.stringify('*'), //rkuan
+    'process.env.USER': JSON.stringify('wesleytong'), //rkuan
+    'process.env.DB': JSON.stringify('wesleytong'), //rkuan
     'process.env.DIALECT': JSON.stringify('postgres'),
     'process.env.PORT': JSON.stringify('3080'),
     'process.env.PG_CONNECTION_STR': JSON.stringify("postgres://pgadmin@webappdemopostgre:Tester@123@webappdemopostgre.postgres.database.azure.com:5432/tasks")
